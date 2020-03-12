@@ -17,7 +17,7 @@ optional arguments:
 $ git clone https://github.com/si9int/iprobe.git
 ```
 ## Basic Usage
-"iprobe" accepts line-delimited addresses on `STDIN`:
+"iprobe" accepts line-delimited addresses on `STDIN`
 ```
 $ cat recon/example/ips.txt
 
@@ -26,7 +26,7 @@ $ cat recon/example/ips.txt
 209.237.199.128
 ```
 **Probe a file**
-- Format: [HTTP status-code] URL
+- Format: `[HTTP status-code] URL`
 ```
 $ cat recon/example/ips.txt | python3 iprobe.py
 
@@ -45,7 +45,7 @@ $ echo "104.244.42.2" | python3 iprobe.py
 
 ## Concurrency
 
-You can set the concurrency level with the `-c` flag (default: 40):
+You can set the concurrency level with the `-c` flag (default: 40)
 ```
 $ cat recon/example/ips.txt | python3 iprobe.py -c 100
 ```
