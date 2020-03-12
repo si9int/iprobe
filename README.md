@@ -1,5 +1,6 @@
 # iprobe
-Takes a list of IP addresses and probes it for working `HTTP` and `HTTPS` servers.
+Takes a list of IP addresses and probes it for working `HTTP` and `HTTPS` servers.  
+Inspired by: https://github.com/tomnomnom/httprobe
 ```
 usage: iprobe.py [-h] [-c CONCURRENCY]
 
