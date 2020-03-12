@@ -1,5 +1,5 @@
 # iprobe
-Take a list of IP addresses and probe for working `HTTP` and `HTTPS` servers 
+Takes a list of IP addresses and probes it for working `HTTP` and `HTTPS` servers.
 ```
 usage: iprobe.py [-h] [-c CONCURRENCY]
 
@@ -26,6 +26,7 @@ $ cat recon/example/ips.txt
 209.237.199.128
 ```
 **Probe a file**
+- Format: [HTTP status-code] URL
 ```
 $ cat recon/example/ips.txt | python3 iprobe.py
 
