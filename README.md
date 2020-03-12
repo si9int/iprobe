@@ -10,7 +10,6 @@ optional arguments:
   -h, --help            show this help message and exit
   -c CONCURRENCY, --concurrency CONCURRENCY
                         number of threads (default: 40)
-
 ```
 ## Install
 - Python3 required
