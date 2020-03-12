@@ -42,7 +42,11 @@ $ echo "104.244.42.2" | python3 iprobe.py
 [404] https://104.244.42.2/
 [404] http://104.244.42.2/
 ```
-
+**Probe an IP range**
+```
+$ prips 217.110.62.0/24 | python3 iprobe.py 
+...
+```
 ## Concurrency
 
 You can set the concurrency level with the `-c` flag (default: 40)
